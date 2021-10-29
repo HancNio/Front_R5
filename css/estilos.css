@@ -16,15 +16,16 @@ html {
     display: flex;
     flex-wrap: wrap;
     min-height: 100vh;
-    background-image: url("/img/banner_mintic_bkg.svg");
+    background-image: url("img/mintic.svg");
 }
 .bodyform{
-  background-image: url("/img/banner_mintic_bkg.svg");
-  background-repeat:repeat-y;
-  background-position-x:left;
+  background-image: url("img/mintic.svg"),url("img/map.png");
+  background-repeat:repeat-y,repeat-y;
+  background-position-x:left,right;
   background-position-y:center;
-  background-size: 30%;
+  background-size: 30%,10rem;
 }
+
 .navbar {
   padding: 0%;
   padding-left: 50px;
@@ -33,10 +34,6 @@ html {
 .container {
     width: 100%;
     margin: auto;        
-    background-image: url("/img/map_right.png");
-    background-repeat:repeat-y;
-    background-position-x:right;
-    background-size: 10rem;
 }
 .consultar{
     padding: 10px;
