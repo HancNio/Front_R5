@@ -16,10 +16,10 @@ html {
     display: flex;
     flex-wrap: wrap;
     min-height: 100vh;
-    background-image: url("img/mintic.svg");
+    background-image: url("/img/mintic.svg");
 }
 .bodyform{
-  background-image: url("img/mintic.svg"),url("img/map.png");
+  background-image: url("/img/mintic.svg"),url("/img/map.png");
   background-repeat:repeat-y,repeat-y;
   background-position-x:left,right;
   background-position-y:center;
